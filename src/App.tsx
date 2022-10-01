@@ -1,10 +1,10 @@
-import "./styles.css";
-import IMAGE from "./Konachan.jpg";
-import GOKU from "./goku.svg";
-import { ClickCounter } from "./ClickCounter";
+import './styles.css'
+import IMAGE from './Konachan.jpg'
+import GOKU from './goku.svg'
+import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
-  const num = "aadarsh";
+  const num = 'aadarsh'
 
   return (
     <>
@@ -15,5 +15,5 @@ export const App = () => {
       <img src={GOKU} alt="goku" width="300" height="200" />
       <ClickCounter />
     </>
-  );
-};
+  )
+}
